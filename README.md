@@ -17,6 +17,7 @@ This project implements a rule-based threat scoring pipeline that:
 - **attribution_rule.py** - VADER sentiment analysis (rule-based)
 - **attribution_gpt.py** - OpenAI GPT-3.5 sentiment analysis  FIXED
 - **attribution_claude.py** - Anthropic Claude 3.5 sentiment analysis
+  **get_CVE.py** - Get's the 10 highest risk CVEs from the past month using NIST's NVD API
 
 ### Data Files
 - **mock_cves.json** - Sample CVE data for testing
