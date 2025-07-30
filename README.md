@@ -88,9 +88,9 @@ Posts are matched to CVEs using three methods:
 ##  Key Findings (UPDATED)
 
 ### Recent Improvements:
-- ** GPT API Fixed**: Updated from deprecated ChatCompletion.create() to chat.completions.create()
-- ** All Methods Working**: GPT now provides meaningful sentiment analysis (0.01-0.49 range)
-- ** Improved Rankings**: All three methods show proper differentiation
+- **GPT API Fixed**: Updated from deprecated ChatCompletion.create() to chat.completions.create()
+- **All Methods Working**: GPT now provides meaningful sentiment analysis (0.01-0.49 range)
+- **Improved Rankings**: All three methods show proper differentiation
 
 ### Sentiment Analysis Comparison:
 **Top CVE (CVE-2025-4285):**
