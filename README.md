@@ -32,34 +32,35 @@ requirements.txt** - Python dependencies
 ##  Setup
 
 ### 1. Install Dependencies
-`bash
-pip install -r requirements.txt
+`pip install -r requirements.txt
 `
 
 ### 2. Environment Variables
 Set up the following environment variables:
 
 **Required for social media data:**
-`bash
+`
 export X_BEARER_TOKEN="your_twitter_bearer_token"
 export REDDIT_USER_AGENT="your_reddit_user_agent"
 `
 
 **Required for LLM sentiment analysis:**
-`ash
+`
 export OPENAI_API_KEY="your_openai_api_key"      # For GPT version
 export CLAUDE_API_KEY="your_anthropic_api_key"   # For Claude version
 `
 
 ### 3. Run Scripts
-`bash
-# Rule-based (fastest, no API required)
+`
+#Rule-Based
 python attribution_rule.py
-
-# GPT-based sentiment analysis (now working properly)
+`
+`
+#GPT-Based
 python attribution_gpt.py
-
-# Claude-based sentiment analysis  
+`
+`
+#GPT-Based
 python attribution_claude.py
 `
 
