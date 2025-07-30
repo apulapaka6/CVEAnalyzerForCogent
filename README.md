@@ -20,8 +20,7 @@ This project implements a rule-based threat scoring pipeline that:
 
 ### Data Files
 - **mock_cves.json** - Sample CVE data for testing
-- **
-requirements.txt** - Python dependencies
+- **requirements.txt** - Python dependencies
 
 ### Output Files
 - **latest_scored_rule_based.json** - VADER-based results
@@ -54,13 +53,9 @@ export CLAUDE_API_KEY="your_anthropic_api_key"   # For Claude version
 `
 #Rule-Based
 python attribution_rule.py
-`
-`
 #GPT-Based
 python attribution_gpt.py
-`
-`
-#GPT-Based
+#CClaude-Based
 python attribution_claude.py
 `
 
