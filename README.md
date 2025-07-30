@@ -14,14 +14,14 @@ This project implements a rule-based threat scoring pipeline that:
 ##  Files
 
 ### Core Scripts
-- **ttribution_rule.py** - VADER sentiment analysis (rule-based)
-- **ttribution_gpt.py** - OpenAI GPT-3.5 sentiment analysis  FIXED
-- **ttribution_claude.py** - Anthropic Claude 3.5 sentiment analysis
+- **attribution_rule.py** - VADER sentiment analysis (rule-based)
+- **attribution_gpt.py** - OpenAI GPT-3.5 sentiment analysis  FIXED
+- **attribution_claude.py** - Anthropic Claude 3.5 sentiment analysis
 
 ### Data Files
 - **mock_cves.json** - Sample CVE data for testing
 - **
-equirements.txt** - Python dependencies
+requirements.txt** - Python dependencies
 
 ### Output Files
 - **latest_scored_rule_based.json** - VADER-based results
@@ -32,7 +32,7 @@ equirements.txt** - Python dependencies
 ##  Setup
 
 ### 1. Install Dependencies
-`ash
+`bash
 pip install -r requirements.txt
 `
 
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 Set up the following environment variables:
 
 **Required for social media data:**
-`ash
+`bash
 export X_BEARER_TOKEN="your_twitter_bearer_token"
 export REDDIT_USER_AGENT="your_reddit_user_agent"
 `
@@ -52,7 +52,7 @@ export CLAUDE_API_KEY="your_anthropic_api_key"   # For Claude version
 `
 
 ### 3. Run Scripts
-`ash
+`bash
 # Rule-based (fastest, no API required)
 python attribution_rule.py
 
