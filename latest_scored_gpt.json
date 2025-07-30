@@ -1,0 +1,72 @@
+[
+  {
+    "cve_id": "CVE-2025-4285",
+    "cvss": 10.0,
+    "mentions": 53,
+    "avg_sentiment": 0.30188679245283023,
+    "threat_score": 7.330188679245283
+  },
+  {
+    "cve_id": "CVE-2025-5243",
+    "cvss": 10.0,
+    "mentions": 18,
+    "avg_sentiment": 0.15555555555555556,
+    "threat_score": 7.315555555555555
+  },
+  {
+    "cve_id": "CVE-2019-25224",
+    "cvss": 9.8,
+    "mentions": 17,
+    "avg_sentiment": 0.4882352941176471,
+    "threat_score": 7.208823529411765
+  },
+  {
+    "cve_id": "CVE-2015-10143",
+    "cvss": 9.8,
+    "mentions": 33,
+    "avg_sentiment": 0.3818181818181819,
+    "threat_score": 7.198181818181818
+  },
+  {
+    "cve_id": "CVE-2025-6918",
+    "cvss": 9.8,
+    "mentions": 53,
+    "avg_sentiment": 0.30188679245283023,
+    "threat_score": 7.190188679245283
+  },
+  {
+    "cve_id": "CVE-2025-4784",
+    "cvss": 9.8,
+    "mentions": 53,
+    "avg_sentiment": 0.30188679245283023,
+    "threat_score": 7.190188679245283
+  },
+  {
+    "cve_id": "CVE-2025-4822",
+    "cvss": 9.8,
+    "mentions": 53,
+    "avg_sentiment": 0.30188679245283023,
+    "threat_score": 7.190188679245283
+  },
+  {
+    "cve_id": "CVE-2025-8244",
+    "cvss": 9.8,
+    "mentions": 57,
+    "avg_sentiment": 0.010526315789473701,
+    "threat_score": 7.161052631578947
+  },
+  {
+    "cve_id": "CVE-2025-48732",
+    "cvss": 9.8,
+    "mentions": 13,
+    "avg_sentiment": 0.0076923076923076945,
+    "threat_score": 7.1607692307692306
+  },
+  {
+    "cve_id": "CVE-2025-6895",
+    "cvss": 9.8,
+    "mentions": 5,
+    "avg_sentiment": 0.45999999999999996,
+    "threat_score": 7.056000000000001
+  }
+]

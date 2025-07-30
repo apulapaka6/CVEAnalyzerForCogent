@@ -1,0 +1,7 @@
+iocextract
+rapidfuzz
+openai
+anthropic
+flask
+praw
+vaderSentiment
