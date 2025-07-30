@@ -105,12 +105,6 @@ Posts are matched to CVEs using three methods:
 
 ##  Technical Notes
 
-### GPT-3.5 Improvements Made:
-1. **API Syntax**: Fixed deprecated OpenAI API calls
-2. **Model**: Updated to gpt-3.5-turbo-16k for better context
-3. **Debug**: Added API key verification
-4. **Results**: Now produces realistic sentiment scores (0.01-0.49)
-
 ### Known Characteristics:
 - **VADER**: May be over-optimistic for security content
 - **GPT-3.5**: Conservative but realistic sentiment assessment  
